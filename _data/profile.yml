@@ -1,0 +1,104 @@
+primary_name: "Pedro C. Vieira"
+secondary_name: ""
+navbar_name: "Pedro C. Vieira"
+
+positions:
+- name: PhD Student
+- name: University of Porto,
+  # logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- name: University of Edinburgh
+  # logo:
+
+
+email: "pvieira@fc.up.pt"
+# cv_link: link-to-your-cv-file
+gscholar: OYjzIbYAAAAJ&hl  # This is an example, replace it with your own Google Scholar ID
+github: PedrV
+# twitter: your_twitter_id  # Do not include the '@' symbol
+# wechat_qrcode: /assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+# linkedin: your-linked-in-id
+# orcid: 0000-0000-0000-0000
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+  I am currently a PhD student at the University of Porto <i>(base)</i> and the University of Edinburgh. I am supervised by <a href="https://vab.im/" class="clean-no-highlight-link">Prof. Dr. Viacheslav Borovitskiy</a> and <a href="https://www.dcc.fc.up.pt/~pribeiro/" class="clean-no-highlight-link">Prof. Dr. Pedro Ribeiro</a>. 
+  <br>
+  I am a member of <a href="https://vab.im/" class="clean-no-highlight-link">Prof. Dr. Viacheslav Borovitskiy's</a> research group, <a href="https://vab.im/group/" class="clean-link"><span class="txt-gl">GL</span><span class="txt-u">U</span><span class="txt-ed">Ed</span></a>. If you are interested in joining us, we occasionally have open positions!
+  </p>
+
+  <p>
+  My main research interests are <i><b>geometric deep learning</b></i> and <i><b>uncertainty quantification</b></i>. I am also interested in <i>network science</i> and <i>topological deep learning</i>.
+  </p>
+
+  <p>
+  Prior to starting my PhD, I was a Master's student at the University of Porto under the supervision of <a href="https://www.dcc.fc.up.pt/~pribeiro/" class="clean-no-highlight-link">Prof. Dr. Pedro Ribeiro</a> and <a href="https://scholar.google.com/citations?user=ACYwI1cAAAAJ&hl=en" class="clean-no-highlight-link">Dr. Miguel E. P. Silva</a>. I also gained research experience working with several distinguished researchers such as <a href="https://scholar.google.com/citations?user=jjoTZfoAAAAJ&hl=en" class="clean-no-highlight-link">Prof. Dr. João Gama</a> through research internships and participation in a summer school.
+  </p>
+
+  <button class="bio-toggle" onclick="toggleBio()">
+    <span class="bio-toggle-icon">></span> What led me to Machine-Learning?
+  </button>
+  <div id="bio-collapsible" style="display:none;">
+    <p>
+    I initially started with a strong interest in both theoretical and practical computer science, which later expanded to include network science and graph theory. Over time, however, I found my "academic home" in machine learning.
+    My transition towards machine learning began during the second year of my bachelor's degree, largely inspired by two books: <a href="https://aima.cs.berkeley.edu/" class="clean-no-highlight-link">Artificial Intelligence: A Modern Approach</a> by Stuart Russell and Peter Norvig and <a href="https://amlbook.com/" class="clean-no-highlight-link">Learning from Data</a> by Yaser S. Abu-Mostafa, Malik Magdon-Ismail and Hsuan-Tien Lin.
+    During this transitional phase, I became particularly interested in nature-inspired machine learning algorithms for graph data, alongside learning theory — interests that helped shape my current focus.
+    </p>
+  </div>
+
+portrait_url: /assets/images/photos/myportrait.jpg
+# portrait_caption: >-
+#  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+
+education:
+- joints:
+  - name: University of Porto
+    logo: /assets/images/badges/UP_Minerva.png
+    dept: Faculty of Sciences - DCC
+  - name: University of Edinburgh
+    logo: /assets/images/badges/uoe-crest.png
+    dept: School of Informatics - IML
+  position: Ph.D. Student
+  date: Sep. 2025 - Present
+- name: University of Porto
+  logo: /assets/images/badges/UP_Minerva.png
+  position: MSc. in Data Science
+  dept: Faculty of Sciences - DCC
+  date: Sep. 2022 - Jul. 2024
+- name: CentraleSupélec, Paris-Saclay University
+  logo: /assets/images/badges/centrale-supelec.png
+  position: Summer School
+  date: Jun. 2022 - Jul. 2022
+- name: University of Porto
+  logo: /assets/images/badges/UP_Minerva.png
+  dept: Faculty of Sciences - DCC
+  position: BSc. in Computer Science
+  date: Sep. 2019 - Jul. 2022
+
+experience:
+- name: "INESC-TEC -- CRACS"
+  logo: /assets/images/badges/INESCTEC2.png
+  position: Research Assitant
+  date: Sep. 2025 - Present
+- name: DCC-FCUP
+  logo: /assets/images/badges/fcup.png
+  position: Research Assistant as Master's Candidate
+  date: Sep. 2023 - Jul. 2024
+- name: "INESC-TEC -- LIAAD"
+  logo: /assets/images/badges/INESCTEC2.png
+  position: Research Intern
+  date: Feb. 2022 - Jan. 2023
+- name: "INESC-TEC -- HumanISE"
+  logo: /assets/images/badges/INESCTEC2.png
+  position: Research Intern
+  date: Feb. 2021 - Sep. 2021
+
+# awards:
+# - name: Award Name 2
+#   date: 2024
+# - name: Award Name 1 
+#   date: 2021
+# - name: A quick brown fox jumps over the lazy dog and runs away award
+#   date: 2021

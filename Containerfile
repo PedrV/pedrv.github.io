@@ -1,0 +1,16 @@
+FROM docker.io/ruby:latest
+
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /srv/jekyll
+
+COPY Gemfile* ./
+RUN bundle install
+
+EXPOSE 4000
+
+# Run Jekyll serve by default
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--livereload", "--force_polling"]

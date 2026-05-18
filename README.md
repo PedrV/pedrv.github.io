@@ -1,3 +1,3 @@
-We are renovating
+Based on the original template by [luost26](https://github.com/luost26/academic-homepage).
 
-![closed-renovation](https://www.shutterstock.com/image-vector/ripped-gray-paper-background-that-600nw-2524439145.jpg)
+I prefer to use containers. Thus, to run this version you can use the available Containerfile.
