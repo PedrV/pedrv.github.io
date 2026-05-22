@@ -5,7 +5,7 @@ selected:       true
 pub_post:       'Pre-print,'
 pub_pre:        "Submitted to NeurIPS, "
 pub_date:       "2026"
-permalink:      /publications/2026/05/21/de-gnn-uq/
+permalink:      /publications/2026/05/21/pub-de-gnn-uq/
 
 abstract: >-
   We investigate Deep Ensembles (DE) of Message Passing Neural Networks and reveal a phenomenon we call <i>epistemic collapse</i>. Across seven datasets, DEs produce extremely low model diversity. While they stabilize training and improve point-estimation, they offer negligible gains for uncertainty quantification over a single model. Having ruled out weight-space convexity, we suggest this collapse is driven by convexity-like behavior in function-space.
