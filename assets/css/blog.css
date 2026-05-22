@@ -439,3 +439,13 @@ article {
 .blog-content a:hover {
     color: #0d2e4a !important;
 }
+
+.reading-time-wrapper {
+  margin-left: auto; /* pushes it to the right */
+}
+
+.reading-time {
+  font-size: 0.85rem;
+  color: #888;
+  white-space: nowrap;
+}

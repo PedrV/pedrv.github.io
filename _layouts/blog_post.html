@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/posts.css' | relative_url }}">
 
     {% if page.mathjax %}
     <!-- 1. Define configuration first -->
@@ -57,6 +58,9 @@
                                     {% endfor %}
                                 </span>
                             {% endif %}
+                        {% assign words = content | number_of_words %}
+                        {% assign reading_time = words | divided_by: 270 | at_least: 1 %}
+                        <span class="reading-time">{{ reading_time }} Min Read</span>
                         </div>
                     </header>
 

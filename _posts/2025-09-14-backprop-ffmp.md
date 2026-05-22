@@ -2,7 +2,7 @@
 layout: blog_post
 title: 'Essentials of Backpropagation in Fully-Connected Feedforward Multilayer Perceptrons'
 date: 2025-09-14
-permalink: /posts/2025/14/backprop-ffmp/
+permalink: /posts/2025/09/14/backprop-ffmp/
 mathjax: true
 tags:
   - fundamentals
